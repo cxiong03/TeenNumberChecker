@@ -3,6 +3,11 @@ package com.codewithchang;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        TeenTracker teen = new TeenTracker();
+        boolean check = false;
+
+        check = teen.hasTeen(9, 99, 19);
+        System.out.println(check);
     }
 }
